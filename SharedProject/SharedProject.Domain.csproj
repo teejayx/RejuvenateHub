@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Contracts\" />
+    <None Remove="SharedProject.Domain\obj\SharedProject.Domain.csproj.nuget.dgspec.json" />
+    <None Remove="SharedProject.Domain\obj\SharedProject.csproj.nuget.dgspec.json" />
+    <None Remove="SharedProject.Domain\obj\SharedProject.Domain.csproj.nuget.g.props" />
+    <None Remove="SharedProject.Domain\obj\SharedProject.csproj.nuget.g.targets" />
+    <None Remove="SharedProject.Domain\obj\SharedProject.csproj.nuget.g.props" />
+    <None Remove="SharedProject.Domain\obj\project.nuget.cache" />
+    <None Remove="SharedProject.Domain\obj\SharedProject.Domain.csproj.nuget.g.targets" />
+    <None Remove="SharedProject.Domain\obj\project.assets.json" />
+    <None Remove="SharedProject.Domain\obj\Debug\net7.0\SharedProject.AssemblyInfoInputs.cache" />
+    <None Remove="SharedProject.Domain\obj\Debug\net7.0\SharedProject.Domain.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Remove="SharedProject.Domain\obj\Debug\net7.0\SharedProject.assets.cache" />
+    <None Remove="SharedProject.Domain\obj\Debug\net7.0\SharedProject.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Remove="SharedProject.Domain\obj\Debug\net7.0\SharedProject.Domain.AssemblyInfoInputs.cache" />
+    <None Remove="SharedProject.Domain\obj\Debug\net7.0\SharedProject.Domain.csproj.AssemblyReference.cache" />
+    <None Remove="SharedProject.Domain\obj\Debug\net7.0\SharedProject.Domain.assets.cache" />
+    <None Remove="SharedProject.Domain\obj\Debug\net7.0\SharedProject.csproj.AssemblyReference.cache" />
+    <None Remove="Seedworks\" />
+    <None Remove="Enum\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+    <Folder Include="obj\" />
+    <Folder Include="Seedworks\" />
+    <Folder Include="Enum\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="SharedProject.Domain\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Remove="SharedProject.Domain\obj\Debug\net7.0\SharedProject.AssemblyInfo.cs" />
+    <Compile Remove="SharedProject.Domain\obj\Debug\net7.0\SharedProject.GlobalUsings.g.cs" />
+    <Compile Remove="SharedProject.Domain\obj\Debug\net7.0\SharedProject.Domain.AssemblyInfo.cs" />
+    <Compile Remove="SharedProject.Domain\obj\Debug\net7.0\SharedProject.Domain.GlobalUsings.g.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <Compile Include="obj\Debug\net7.0\SharedProject.AssemblyInfo.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <Compile Include="obj\Debug\net7.0\SharedProject.Domain.AssemblyInfo.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <Compile Include="obj\Debug\net7.0\SharedProject.Domain.GlobalUsings.g.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <Compile Include="obj\Debug\net7.0\SharedProject.GlobalUsings.g.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\net7.0\SharedProject.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net7.0\SharedProject.assets.cache" />
+    <None Include="obj\Debug\net7.0\SharedProject.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net7.0\SharedProject.Domain.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net7.0\SharedProject.Domain.assets.cache" />
+    <None Include="obj\Debug\net7.0\SharedProject.Domain.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net7.0\SharedProject.Domain.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net7.0\SharedProject.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\project.assets.json" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\SharedProject.csproj.nuget.dgspec.json" />
+    <None Include="obj\SharedProject.csproj.nuget.g.props" />
+    <None Include="obj\SharedProject.csproj.nuget.g.targets" />
+    <None Include="obj\SharedProject.Domain.csproj.nuget.dgspec.json" />
+    <None Include="obj\SharedProject.Domain.csproj.nuget.g.props" />
+    <None Include="obj\SharedProject.Domain.csproj.nuget.g.targets" />
+  </ItemGroup>
+</Project>
